@@ -1,0 +1,106 @@
+*{
+    margin: 0;
+    padding: 0;
+    transition: 300ms ease;
+}
+body{
+    background: #f0dede;
+}
+.principale{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+.principale .box-image{
+    height: 90vh;
+    width: 80%;
+    background: #ffffff;
+    display: flex;
+    padding: 20px;
+    border-radius: 20px;
+    justify-content: left;
+    overflow: hidden;
+    align-items:flex-end;
+    box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.164);
+}
+.principale .box-image .image{
+    height: 20vh;
+    width: 7%;
+    background: url('image/pexels-hasib-khorami-1496647.jpg');
+    background-size: cover;
+    background-position: center;
+    border-radius: 20px;
+    box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.295);
+    margin-left: 10px;
+    transition: 400ms;
+    z-index: 1000;
+}
+.principale .box-image .image:hover{
+    width: 16%;
+    transition: 400ms;
+    cursor: pointer;
+    box-shadow: 2px 3px 15px rgba(0, 0, 0, 0.349);
+}
+.principale .box-image .image-2{
+    background: url('image/pexels-andrea-piacquadio-842811.jpg');
+    background-size: cover;
+    background-position: center;
+    transition: 300ms ease;
+}
+.principale .box-image .image-3{
+    background: url('image/pexels-royal-anwar-450212.jpg');
+    background-size: cover;
+    background-position: center;
+    
+}
+.principale .box-image.backgrou{
+    background: url('image/pexels-andrea-piacquadio-842811.jpg');
+    background-size: cover;
+    background-position: center;
+    transition: 300ms ease;
+}
+.principale .box-image.backgrou-3{
+    background: url('image/pexels-royal-anwar-450212.jpg');
+    background-size: cover;
+    background-position: center;
+    transition: 300ms ease;
+}
+.principale .box-image.backgrou-1{
+    background: url('image/pexels-hasib-khorami-1496647.jpg');
+    background-size: cover;
+    background-position: center;
+    transition: 300ms ease;
+}
+.principale .box-image .item{
+    height: 85vh;
+    width: 80%;
+    background: #00000067;
+    position: absolute;
+    top: 50px;
+    border-radius: 20px;
+    transform: translateY(-1000px);
+    display: flex;
+    flex-direction: column;
+    color: white;
+    justify-content: center;
+    align-items: center;
+}
+.principale .box-image .item p{
+    width: 40%;
+    text-align: center;
+    margin-top: 20Px;
+    color: rgb(211, 199, 199);
+}
+.principale .box-image .item h1{
+    font-size: 6rem;
+}
+.principale .box-image .item-1.active{
+    transform: translateY(0px);
+}
+.principale .box-image .item-2.active{
+    transform: translateY(0px);
+}
+.principale .box-image .item-3.active{
+    transform: translateY(0px);
+}
